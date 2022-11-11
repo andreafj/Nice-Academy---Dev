@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class HighSchoolTrainee {
     public static void  main(String[] args){
 
@@ -20,6 +22,13 @@ public class HighSchoolTrainee {
         System.out.println("The student name is  "+StudentName);
         System.out.println("The student First Name "+FirstName);
         System.out.println("The student Last Name is "+LastName);
+
+        System.out.println("The student prom are "+ Prom + " Please modify this prom");
+
+        Scanner input = new Scanner(System.in);
+        Prom = input.nextDouble();
+
+        System.out.println("The new prom are "+Prom);
 
     }
 }
