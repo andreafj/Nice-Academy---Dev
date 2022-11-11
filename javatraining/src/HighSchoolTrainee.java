@@ -14,12 +14,13 @@ public class HighSchoolTrainee {
         System.out.println("My Age is " +StudentAge);
         System.out.println("My Prom is "+Prom);
         System.out.println("My Midlename is "+Midlename);
-        System.out.println("My Firsinitial is  "+FirstInitial);
-        System.out.println("My lastinitial is "+LastInitial);
+        //System.out.println("My Firsinitial is  "+FirstInitial);
+        //System.out.println("My lastinitial is "+LastInitial);
         System.out.println("My Attendance is "+Attendance);
-        System.out.println("The student name is "+StudentName);
+        //System.out.println("The student name is "+StudentName);
         System.out.println("The student First Name is "+FirstName);
-        System.out.println("The student Last Name is "+LastName);
+        //System.out.println("The student Last Name is "+LastName);
+        System.out.println("The student :"+StudentName+" "+LastName + "And their Initials are :"+FirstInitial + LastInitial);
 
     }
 }
